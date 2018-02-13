@@ -1,4 +1,4 @@
-# This is Jonathan Seel Exercise Repo
+# This is Jonathan Seel's Exercise Repo
 
 We use **this file** to practice markdown
 We have tried:
