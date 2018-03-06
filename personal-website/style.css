@@ -1,3 +1,10 @@
+body{
+  font-family: Georgia;
+  background: #28D0FD;
+  color: white;
+}
+
+
 table,td{
    border: 2px solid black;
 }
@@ -7,4 +14,9 @@ table,td{
 }
 .bluehead{
   color: blue;
+}
+
+img{
+border-radius:100%;
+
 }

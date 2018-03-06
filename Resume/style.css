@@ -1,0 +1,57 @@
+body{
+  background-color: #FFFFF0;
+  border-style: solid;
+  border-width: thin;
+}
+
+.title{
+  text-align: center;
+  position: fixed;
+  color: #000080;
+  margin-bottom: auto;
+  z-index: 10;
+  width: 100%;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.navigation li a {
+  font-weight: 100;
+  letter-spacing: 10px;
+  padding: 20px;
+  width: 100%;
+  float:left;
+  clear: both;
+}
+
+
+.contact{
+text-align: center;
+margin-top: : 40px;
+width: 100%;
+position: fixed;
+font-family: 'Oswald', sans-serif;
+font-size: 16px;
+list-style-type: none;
+clear: both;
+}
+
+h2{
+  padding: 5px 10px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+p{
+  padding-left: 20px;
+
+}
+
+.indent{
+  padding-left: 20px;
+}
