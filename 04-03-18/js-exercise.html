@@ -4,28 +4,46 @@
 <head>
   <meta charset="utf-8">
   <title>JS Exercise</title>
-  <script src="my-code.js"type="text/javascript">
-  </script>
+
   <script>
-    var grade =85;
-    if (grade>89) {
+    //if else version of Calculator
+    var grade = 75;
+    if (grade > 89) {
       console.log("Your grade is an A");
-    }
-    else if (grade>79) {
-    console.log("Your grade is a B");
-    }
-    else if (grade>69) {
-    console.log("Your grade is a C");
-    }
-    else if (grade>59) {
-    console.log("Your grade is a D");
-    }
-    else {
+    } else if (grade > 79) {
+      console.log("Your grade is a B");
+    } else if (grade > 69) {
+      console.log("Your grade is a C");
+    } else if (grade > 59) {
+      console.log("Your grade is a D");
+    } else {
       console.log("Your grade is an F");
     }
   </script>
+
+
+  <script>
+    //Switch version of Calculator
+    let grade2 = 75;
+    switch (true) {
+      case (grade2 > 89):
+        console.log("Your grade is an A");
+        break;
+      case (grade2 > 79):
+        console.log("Your grade is a B");
+        break;
+      case (grade2 > 69):
+        console.log("Your grade is a C");
+        break;
+      case (grade2 > 59):
+        console.log("Your grade is a D");
+        break;
+      default:
+        console.log("Your grade is an F");
+    }
+  </script>
 </head>
-<h1>See console for output</h1>
+<h1>Basic Javascript Exercise, See Console for Outputs</h1>
 
 <body>
 

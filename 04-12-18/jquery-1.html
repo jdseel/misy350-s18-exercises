@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JQuery Basics</title>
+  </head>
+  <body>
+    <a href="#">website 1</a>
+    <a id='google' href="#">website 2</a>
+    <a href="#">website 3</a>
+    <a href="#">website 4</a>
+<h1>This is JQuery Basis</h1>
+<button id='change-text'type="button" name="button">Change Color</button>
+<script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    //This is where my jquery code should be
+    function main(){
+      $('h1').hide();
+      $('h1').fadeIn(4000);
+
+      //click button to change text in a link
+      $('#change-text').click(function(){
+      });
+    }
+    $(document).ready(main);
+  </script>
+  </body>
+</html>
